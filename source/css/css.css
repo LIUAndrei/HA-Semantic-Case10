@@ -1,0 +1,57 @@
+@font-face {
+    font-family: regularOpenSans;
+    src: url('../fonts/OpenSans-Regular.ttf');
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #173250;
+    font-family: regularOpenSans ;
+    font-size: 14px;
+}
+
+ul {
+    list-style: none;
+}
+
+header.header,
+main.main,
+footer.footer {
+    margin-left: 55px;
+}
+
+header.header {
+    outline: 2px solid green;
+    height: 112px;
+    display: grid;
+    grid-template-columns: 200px auto;
+}
+
+nav.nav {
+    outline: 1px solid red;
+
+}
+
+div.title-box {
+    outline: 1px solid black;
+    display: flex;
+    align-items: center;
+    
+}
+
+a.title-box__logo-link {
+    margin-left: -2px;
+}
+
+
+ul.nav__list {
+    outline: 1px solid maroon;
+    display: flex;
+    align-items: baseline;
+}
+
+ul.nav__list li {
+    margin-right: 37px;
+}
